@@ -12,6 +12,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 20px;
+  position: relative;
 }
 
 .hero h1 {
@@ -107,7 +108,7 @@ body {
 
 /* Logo Styles */
 .logo-container {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
   z-index: 100;
