@@ -76,18 +76,23 @@ body {
 }
 
 .links {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .links a {
-  color: #6E2BFF;
+  color: var(--gpu-gold);
   margin: 0 10px;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
 
 .links a:hover {
-  color: var(--gpu-gold);
+  color: var(--deep-space);
+  background-color: var(--gpu-gold);
+  text-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
 .footnote {
