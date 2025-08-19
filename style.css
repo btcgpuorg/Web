@@ -19,6 +19,7 @@ body {
   font-size: 4.5rem;
   text-shadow: 0 0 20px var(--gpu-gold);
   margin-bottom: 20px;
+  margin-top: 20px; /* 与LOGO对齐 */
 }
 .gpu { 
   color: var(--gpu-gold);
